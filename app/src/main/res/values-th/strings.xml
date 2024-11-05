@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment!</string>
+    <string name="textveiw">ค่าดัชนีมวลกาย</string>
+    <string name="IDweight">น้ำหนัก (กิโลกรัม)</string>
+    <string name="IDheight">ส่วนสูง (เซนติเมตร)</string>
+    <string name="IP_hint">0.00</string>
+    <string name="bmi">ค่าดัชนีมวลกาย</string>
+    <string name="IDclass">อยู่ในเกณฑ์</string>
+    <string name="IDcalculate">คำนวณ</string>
+
+</resources>
