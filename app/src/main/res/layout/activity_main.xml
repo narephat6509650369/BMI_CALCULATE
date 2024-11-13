@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textveiw"
+            style="@style/TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/textveiw" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ID_history_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginStart="@dimen/pd"
+            android:contentDescription="@string/histroy_this"
+            app:backgroundTint="@color/colorPrimaryb"
+            app:srcCompat="@drawable/clock__2_" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/pd"
+        >
+
+        <TextView
+            android:id="@+id/IDweight"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mg_s"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/IDweight" />
+
+        <EditText
+            android:id="@+id/IPweight"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/mg_s"
+            android:layout_weight="1"
+            android:padding="@dimen/pd"
+            android:hint="@string/IP_hint"
+            android:background="@drawable/box_custom"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/pd"
+        >
+
+        <TextView
+            android:id="@+id/IDheight"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mg_s"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/IDheight" />
+
+        <EditText
+            android:id="@+id/IPheight"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/mg_s"
+            android:layout_weight="1"
+            android:padding="@dimen/pd"
+            android:hint="@string/IP_hint"
+            android:background="@drawable/box_custom"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/pd"
+        >
+
+        <TextView
+            android:id="@+id/IDbmi"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mg_s"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/bmi" />
+
+        <TextView
+            android:id="@+id/Show_bmi"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/mg_s"
+            android:layout_weight="1"
+            android:padding="@dimen/pd"
+            android:background="@drawable/box_custom"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/pd"
+        >
+
+        <TextView
+            android:id="@+id/IDclass"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mg_s"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/IDclass" />
+
+        <TextView
+            android:id="@+id/Show_class"
+            android:layout_width="@dimen/w"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/mg_s"
+            android:layout_weight="1"
+            android:padding="@dimen/pd"
+            android:background="@drawable/box_custom"
+             />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/IDcalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/IDcalculate"
+        android:layout_marginTop="@dimen/pd"
+        android:background="@drawable/bottom_costom"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

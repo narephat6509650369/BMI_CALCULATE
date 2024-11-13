@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="large_size">28sp</dimen>
+    <dimen name="normal_size">16sp</dimen>
+    <dimen name="small_size">8sp</dimen>
+    <dimen name="mg_s">30dp</dimen>
+    <dimen name="w">0dp</dimen>
+    <dimen name="pd">15dp</dimen>
+    <dimen name="set">1dp</dimen>
+    <dimen name="set1">10dp</dimen>
+</resources>

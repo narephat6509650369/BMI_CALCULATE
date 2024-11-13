@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="textveiw">Body Mass Index</string>
+    <string name="IDweight">Weight (kg)</string>
+    <string name="IDheight">Height (cm)</string>
+    <string name="IP_hint">0.00</string>
+    <string name="bmi">BMI</string>
+    <string name="IDclass">" Classification"</string>
+    <string name="IDcalculate">Calculate</string>
+    <string name="col_trans_id_str">Date</string>
+    <string name="col_name_str">Weight</string>
+    <string name="col_msg_str">Mass</string>
+    <string name="col_amt_str">Class</string>
+    <string name="histroy_this">History</string>
+    <string name="histroy_this1">History of BMI</string>
+</resources>

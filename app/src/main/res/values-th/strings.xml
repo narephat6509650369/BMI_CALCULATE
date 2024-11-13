@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="textveiw">ค่าดัชนีมวลกาย</string>
+    <string name="IDweight">น้ำหนัก (กิโลกรัม)</string>
+    <string name="IDheight">ส่วนสูง (เซนติเมตร)</string>
+    <string name="IP_hint">0.00</string>
+    <string name="bmi">ค่าดัชนีมวลกาย</string>
+    <string name="IDclass">อยู่ในเกณฑ์</string>
+    <string name="IDcalculate">คำนวณ</string>
+    <string name="col_trans_id_str">วันที่</string>
+    <string name="col_name_str">น้ำหนัก</string>
+    <string name="col_msg_str">ค่าดัชนีมวลกาย</string>
+    <string name="col_amt_str">อยู๋ในเกณฑ์</string>
+    <string name="histroy_this">ประวัติ</string>
+    <string name="histroy_this1">ประวัติค่าดัชนีมวลกาย</string>
+</resources>
